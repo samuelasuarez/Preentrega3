@@ -237,11 +237,97 @@ body {
     grid-row: span 2;
 }
 
+.invierno__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.70s ease;
+    background-color: rgba(0, 0, 0, 0.26);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }   
+.invierno__text {
+    font-family: roboto;
+    color: white;
+}
+  .invierno__item:hover .invierno__overlay {
+    transform:translateY(0%) ;
+   }
+
+   .invierno {
+    max-width: 950px;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    grid-auto-rows: 250px;
+    justify-self: center;
+    justify-content: center;
+    gap: 1rem;
+}
 
 
+.invierno__item {
+    background-color:red ;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.invierno__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
+.verano {
+    max-width: 950px;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    grid-auto-rows: 250px;
+    justify-self: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.verano__item {
+    background-color:red ;
+    position: relative;
+    overflow: hidden;
+}
+ 
 
+
+.verano__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.verano__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.70s ease;
+    background-color: rgba(0, 0, 0, 0.26);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }   
+.verano__text {
+    font-family: roboto;
+    color: white;
+}
+  .verano__item:hover .verano__overlay {
+    transform:translateY(0%) ;
+   }
 
 
 
