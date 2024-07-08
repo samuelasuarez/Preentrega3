@@ -35,34 +35,49 @@
               <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="col-6 nav-item text-center">
-              <a class="nav-link" href="contacto.html">Contacto</a>
+              <a class="nav-link" href="">Contacto</a>
           </li>
         </ul>
       </section>
 
-<h1 class="intro-titulo text-center mt-5">
-    Elija una estacion
-</h1>
+      <section class="container intro">
+        <h1 class="intro-titulo text-center mt-5">
+           Contacto
+        </h1>
+        <p class="intro-texto text-center">
+        Contactese con nosotros
+        </p>
+    </section>
+
+<section class="row">
+   <div class="col-8">
+    <img class="img-fluid contacto-img" src="../imgs/skater.jpg" alt="">
+   </div>
+   <form class="col-3 d-flex flex-column contenedor-form">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nmobre" placeholder="Ingrese su nombre">
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+    <label for="localidad">Localidad</label>
+    <input type="text" name="localidad" id="localidad" placeholder="Ingrese su localidad">
+    <label for="texto">Ingrese su texto</label>
+    <textarea class="textarea" name="texto" id="texto" spaceholder="Maximo de 500 caracteres"></textarea>
+ 
+        <input type="submit">
+        <input type="reset" name="" id="">
+  
+   </form>
+</section>
+    
+    
 
 
-    <section class="estacion mt-5">
-        <div class="estacion__item estacion__item--1">
-            <img class="estacion__img img-fluid" src="../imgs/anorak.png" alt="pant-corderoy">
-            <div class="estacion__overlay">
-            <span class="estacion__text">
-                <a class="estacion__link" href="invierno.html"> Iniverno  </a>
-            </span> 
-            </div>
-        </div>
-        <div class="estacion__item estacion__item--2">
-           <img class="estacion__img img-fluid" src="../imgs/chomba.jpg" alt="pant-mom">
-            <div class="estacion__overlay">
-            <span class="estacion__text">
-          <a class="estacion__link" href="verano.html"> Verano</a> 
-            </span>
-            </div>
-        </div>
-        </section>
+
+
+
+
+
+  
         <p class="footer-text text-center mt-5">
             <strong>Redes Sociales</strong>
         </p>
