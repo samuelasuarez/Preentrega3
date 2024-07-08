@@ -1,0 +1,25 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+.header {
+  background-color: black;
+}
+.header .buscar {
+  font-family: roboto;
+  background-color: white;
+  color: black;
+  width: 350px;
+}
+.header .header-text {
+  font-family: roboto;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.header .header-text:hover {
+  background-color: white;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
